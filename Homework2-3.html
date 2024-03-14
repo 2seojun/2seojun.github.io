@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column" >
+    <h2>좌측 텍스트 박스입니다.</h2>
+    <p>좌측입니다.</p>
+    <p>좌측입니다.</p>
+    <p>좌측입니다.</p>
+    <p>좌측입니다.</p>
+    <p>좌측입니다.</p>
+    
+  </div>
+  <div class="column" >
+    <h2>우측 텍스트 박스입니다.</h2>
+    <p>우측입니다.</p>
+    <p>우측입니다.</p>
+    <p>우측입니다.</p>
+    <p>우측입니다.</p>
+    <p>우측입니다.</p>
+  </div>
+</div>
+
+</body>
+</html>
